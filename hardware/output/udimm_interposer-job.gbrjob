@@ -1,0 +1,208 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "7.0.0"
+    },
+    "CreationDate": "2023-04-11T16:47:50+02:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "udimm_interposer",
+      "GUID": "7564696d-6d5f-4696-9e74-6572706f7365",
+      "Revision": "A"
+    },
+    "Size": {
+      "X": 133.45,
+      "Y": 21.9525
+    },
+    "LayerNumber": 6,
+    "BoardThickness": 1.1064,
+    "Finish": "None"
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.09,
+      "PadToTrack": 0.09,
+      "TrackToTrack": 0.09,
+      "MinLineWidth": 0.12,
+      "TrackToRegion": 0.1,
+      "RegionToRegion": 0.1
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.09,
+      "PadToTrack": 0.09,
+      "TrackToTrack": 0.09,
+      "MinLineWidth": 0.098,
+      "TrackToRegion": 0.1,
+      "RegionToRegion": 0.1
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "udimm_interposer-F_Cu.gtl",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "udimm_interposer-In1_Cu-GND.g2",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "udimm_interposer-In2_Cu-1V1-signal.g3",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "udimm_interposer-In3_Cu-3V3-signal.g4",
+      "FileFunction": "Copper,L4,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "udimm_interposer-In4_Cu-GND.g5",
+      "FileFunction": "Copper,L5,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "udimm_interposer-B_Cu.gbl",
+      "FileFunction": "Copper,L6,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "udimm_interposer-F_Paste.gtp",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "udimm_interposer-B_Paste.gbp",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "udimm_interposer-F_Silkscreen.gto",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "udimm_interposer-B_Silkscreen.gbo",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "udimm_interposer-F_Mask.gts",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "udimm_interposer-B_Mask.gbs",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "udimm_interposer-Edge_Cuts.gm1",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Color": "White",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Color": "Green",
+      "Thickness": 0.01,
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "F.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.0764,
+      "Material": "1080*1",
+      "Name": "F.Cu/In1.Cu-GND",
+      "Notes": "Type: dielectric layer 1 (from F.Cu to In1.Cu-GND)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "In1.Cu-GND"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.3,
+      "Material": "Core",
+      "Name": "In1.Cu-GND/In2.Cu-1V1-signal",
+      "Notes": "Type: dielectric layer 2 (from In1.Cu-GND to In2.Cu-1V1-signal)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "In2.Cu-1V1-signal"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.2028,
+      "Material": "1080*1",
+      "Name": "In2.Cu-1V1-signal/In3.Cu-3V3-signal",
+      "Notes": "Type: dielectric layer 3 (from In2.Cu-1V1-signal to In3.Cu-3V3-signal)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "In3.Cu-3V3-signal"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.3,
+      "Material": "Core",
+      "Name": "In3.Cu-3V3-signal/In4.Cu-GND",
+      "Notes": "Type: dielectric layer 4 (from In3.Cu-3V3-signal to In4.Cu-GND)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "In4.Cu-GND"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.0764,
+      "Material": "1080*1",
+      "Name": "In4.Cu-GND/B.Cu",
+      "Notes": "Type: dielectric layer 5 (from In4.Cu-GND to B.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "B.Cu"
+    },
+    {
+      "Type": "SolderMask",
+      "Color": "Green",
+      "Thickness": 0.01,
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Color": "White",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}

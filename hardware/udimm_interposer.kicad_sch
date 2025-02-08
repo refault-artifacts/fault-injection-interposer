@@ -1,0 +1,153 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b43daa27-558c-4d6f-9810-2ba8dacd3bae")
+	(paper "A3")
+	(title_block
+		(title "DDR5 Interposer ")
+		(date "2023-02-20")
+		(rev "A")
+		(company "ETH Zürich")
+		(comment 1 "REFault")
+		(comment 3 "Draft")
+		(comment 4 "EN")
+		(comment 5 "Stefan Gloor")
+		(comment 6 "-")
+		(comment 7 "D-ITET")
+		(comment 8 "ETH Zürich, Computer Security Group")
+	)
+	(lib_symbols)
+	(text "DDR5 UDIMM Fault Injection Interposer"
+		(exclude_from_sim no)
+		(at 58.42 63.5 0)
+		(effects
+			(font
+				(size 10.24 10.24)
+				(thickness 2.048)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "17bc6d33-b7c4-42c5-8253-3d3c0d9586e1")
+	)
+	(sheet
+		(at 55.88 104.14)
+		(size 58.42 44.45)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "27a4152f-b69b-4da2-94b4-24fe35bdf99b")
+		(property "Sheetname" "DDR5 Connectors"
+			(at 55.88 101.5034 0)
+			(effects
+				(font
+					(size 5.12 5.12)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 55.88 150.7146 0)
+			(effects
+				(font
+					(size 5.12 5.12)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "udimm_interposer"
+				(path "/b43daa27-558c-4d6f-9810-2ba8dacd3bae"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 210.82 104.14)
+		(size 109.22 45.72)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2a06b0a7-df14-4467-a565-9ad9ee6622b4")
+		(property "Sheetname" "Testpoints and Connections"
+			(at 210.82 101.5034 0)
+			(effects
+				(font
+					(size 5.12 5.12)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connections.kicad_sch"
+			(at 210.82 151.9846 0)
+			(effects
+				(font
+					(size 5.12 5.12)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "udimm_interposer"
+				(path "/b43daa27-558c-4d6f-9810-2ba8dacd3bae"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 54.61 186.69)
+		(size 68.58 45.72)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ce713dba-b758-4637-9460-b6fd6008d4e9")
+		(property "Sheetname" "Fault Injection"
+			(at 54.61 185.9784 0)
+			(effects
+				(font
+					(size 5.12 5.12)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fault_injection.kicad_sch"
+			(at 54.61 232.9946 0)
+			(effects
+				(font
+					(size 5.12 5.12)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "udimm_interposer"
+				(path "/b43daa27-558c-4d6f-9810-2ba8dacd3bae"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

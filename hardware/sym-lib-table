@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "udimm_ddr5")(type "KiCad")(uri "${KIPRJMOD}/udimm_ddr5.kicad_sym")(options "")(descr ""))
+)
