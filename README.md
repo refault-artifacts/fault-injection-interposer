@@ -55,7 +55,7 @@ The PCB is impedance controlled. It uses the JLC06121H-1080 stackup options.
 |Silkscreen Technology|Ink-jet/Screen Printing Silkscreen|
 |Package Box|With JLCPCB logo|
 
-**Warning**: For future orders, it may be a better idea to not select "Gold Fingers",
+**Important**: For future orders, it may be a better idea to not select "Gold Fingers",
 because we do not want chamfering along the edge connector. As far as
 the PCB manufacturer is concerned, the edge connector consists of normal
 pads. Otherwise add an explicit remark that you do not want any chamfering.
