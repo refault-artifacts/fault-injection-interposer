@@ -79,12 +79,6 @@ from the connectors of the DIMM. For this reason, the connector was soldered
 on manually.
 
 ### Modifications
-Note that suitable 1.1 V voltage regulators in an SOT23-5 package
-with the first pin being GND are difficult to source.
-To circumvent this, we recommend to choose any other voltage regulator
-with a standard pinout and swapping pin 1 and 2 accordingly.
-This should be fixed in future PCB revisions.
-
 Some switches are not connected to the flat flex connector.
 To hard-wire them to the "passthrough" position, a wire must be soldered
 to the appropriate pads on the voltage regulator side of the PCB.
